@@ -69,7 +69,7 @@ from cli.cli import main  # noqa: E402 pylint: disable=wrong-import-position
 
 def wrapper() -> None:
     """Wrapper script to call the cli application"""
-    main.main()
+    main.main() # type: ignore
 
 
 if __name__ == "__main__":
